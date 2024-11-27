@@ -54,19 +54,6 @@ body {
     margin-right: 179vh;
     
 }
-
-.circle5{
-    display: none; 
-}
-.circle6{
-    display: none; 
-}
-.circle7{
-    display: none; 
-}
-.circle8{
-    display: none; 
-}
 .container {
     background: #61dd7c;
     padding: 20px;
@@ -153,31 +140,6 @@ button.vote-btn:disabled {
     }
     .circle4{
         display: none;   
-    }
-    .circle5{
-        position: absolute;
-        border: #960025 2px solid ;
-        width: 200px;
-        height: 200px;
-    }
-    .circle6{
-        position: absolute;
-        border: #960025 2px solid ;
-        width: 200px;
-        height: 200px;
-    }
-    .circle7{
-        position: absolute;
-        border: #960025 2px solid ;
-        width: 200px;
-        height: 200px;
-
-    }
-    .circle8{  
-        position: absolute;
-        border: #960025 2px solid ;
-        width: 200px;
-        height: 200px;
     }
 }
 
