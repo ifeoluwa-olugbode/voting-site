@@ -56,17 +56,16 @@ body {
 }
 
 .circle5{
-    /* position: absolute;
-    border: #960025 2px solid ;
-    width: 200px;
-    height: 200px; */
+    display: none; 
 }
 .circle6{
+    display: none; 
 }
 .circle7{
-
+    display: none; 
 }
-.circle8{  
+.circle8{
+    display: none; 
 }
 .container {
     background: #61dd7c;
@@ -162,11 +161,23 @@ button.vote-btn:disabled {
         height: 200px;
     }
     .circle6{
+        position: absolute;
+        border: #960025 2px solid ;
+        width: 200px;
+        height: 200px;
     }
     .circle7{
+        position: absolute;
+        border: #960025 2px solid ;
+        width: 200px;
+        height: 200px;
 
     }
     .circle8{  
+        position: absolute;
+        border: #960025 2px solid ;
+        width: 200px;
+        height: 200px;
     }
 }
 
