@@ -1,0 +1,209 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: 3;
+}
+.circle{
+    position: absolute;
+    border: 2px solid #960025;
+    border-radius: 50px;
+    width: 100px;
+    height:100px;
+    background-color: #960025;
+    top: 40px;
+    margin-right: 170vh;
+    box-shadow: #333 5px 2px 10px 2px;
+}
+.circle2{
+    position: absolute;
+    border: 2px solid #23eb2d ;
+    border-radius: 50px;
+    width: 20px;
+    height:20px;
+    background-color: #23eb2d;
+    top: 110px;
+    margin-right: 150vh;
+    
+}
+.circle3{
+    position: absolute;
+    border: 2px solid #eb8e23 ;
+    border-radius: 50px;
+    width: 5px;
+    height:5px;
+    background-color: #eb8e23;
+    top: 100px;
+    margin-right: 147vh;
+    
+}
+.circle4{
+    position: absolute;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    width: 10px;
+    height:10px;
+    background-color: #fff;
+    top: 60px;
+    margin-right: 179vh;
+    
+}
+
+.circle5{
+    /* position: absolute;
+    border: #960025 2px solid ;
+    width: 200px;
+    height: 200px; */
+}
+.circle6{
+}
+.circle7{
+
+}
+.circle8{  
+}
+.container {
+    background: #61dd7c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Contestants List */
+#contestants {
+    margin-bottom: 20px;
+}
+
+.contestant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+button.vote-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.vote-btn:hover {
+    background-color: #0056b3;
+}
+
+button.vote-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Message Section */
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+
+
+
+
+/* -----------------------------------------------MEDIA QUERY---------------------------------------------- */
+/* iPhone 12/13/14 and similar (390px width) */
+@media only screen and (max-width: 390px) {
+    body {
+        font-size: 13px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+    .circle{
+        display: none;
+    }
+    .circle2{
+        display: none;
+    }
+    .circle3{
+        display: none;
+    }
+    .circle4{
+        display: none;   
+    }
+    .circle5{
+        position: absolute;
+        border: #960025 2px solid ;
+        width: 200px;
+        height: 200px;
+    }
+    .circle6{
+    }
+    .circle7{
+
+    }
+    .circle8{  
+    }
+}
+
+
+
+/* Larger smartphones (up to 768px, e.g., iPhone Plus models and large Android phones) */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+
+    .container {
+        width: 85%;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .contestant span {
+        margin-bottom: 8px;
+    }
+
+    button.vote-btn {
+        padding: 10px 15px;
+    }
+
+    .circle{
+        display: none;
+    }
+    .circle2{
+        display: none;
+    }
+    .circle3{
+        display: none;
+    }
+    .circle4{
+        display: none;   
+    }
+}
